@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-freetype-master.flake = false;
+  inputs.src-freetype-master.ref   = "refs/heads/master";
   inputs.src-freetype-master.owner = "jangko";
-  inputs.src-freetype-master.ref   = "master";
   inputs.src-freetype-master.repo  = "freetype";
   inputs.src-freetype-master.type  = "github";
   
