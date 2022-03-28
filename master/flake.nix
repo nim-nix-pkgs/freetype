@@ -11,7 +11,6 @@
   inputs.src-freetype-master.ref   = "refs/heads/master";
   inputs.src-freetype-master.owner = "jangko";
   inputs.src-freetype-master.repo  = "freetype";
-  inputs.src-freetype-master.dir   = "";
   inputs.src-freetype-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
